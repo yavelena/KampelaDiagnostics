@@ -1,0 +1,2002 @@
+
+DATE: 	05/07/2024
+TIME: 	20:45:33
+        
+2024-07-05 20:45:20
+Execution time: 0.006 seconds
+PC to MPU:  	power 0
+MPU to PC:   	power is off
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:20
+Execution time: 0.058 seconds
+PC to MPU:  	dis
+MPU to PC:   	Cap size raw is 64
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:20
+Execution time: 0.011 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.004,0.001,0.001,0.000,0.000,1.142,0.000,24.533,0.002,0.000,0.000,0.007,0.541,0.004,0.000,0.229,0.002,0.000,0.000,0.000,0.000,0.000
+RESULT:   		OK
+				MAIN: OK	 (value = 24.533; spec = 23.0; tolerance = 3.0)
+
+        
+2024-07-05 20:45:20
+Execution time: 0.006 seconds
+PC to MPU:  	power 3000
+MPU to PC:   	power is on, pw: 3000
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:20
+Execution time: 1.000 seconds
+PC to MPU:  	wait 1000
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:21
+Execution time: 0.012 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.003,0.810,0.003,0.000,0.000,1.736,0.923,24.533,0.002,0.927,0.000,1.576,2.940,0.002,0.000,3.007,0.002,0.908,0.000,1.228,1.234,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.736; spec = 1.8; tolerance = 0.2)
+
+        
+2024-07-05 20:45:21
+Execution time: 0.235 seconds
+PC to MPU:  	con
+MPU to PC:   	IDCODE 0x6BA02477
+Target EFM32PG200F512IM40
+UniqueID B43522FFFE4F31AB
+PageSize 8192
+FlashSize 524288
+RamSize 65536
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:22
+Execution time: 0.022 seconds
+PC to MPU:  	allinput
+MPU to PC:   	All input OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:22
+Execution time: 0.007 seconds
+PC to MPU:  	portset 2 0 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:22
+Execution time: 0.007 seconds
+PC to MPU:  	portset 2 4 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:22
+Execution time: 0.007 seconds
+PC to MPU:  	portset 3 2 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:22
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 3 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:22
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 9 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:22
+Execution time: 0.008 seconds
+PC to MPU:  	portset 0 6 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:22
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 7 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:22
+Execution time: 0.164 seconds
+PC to MPU:  	portset 3 3 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:22
+Execution time: 0.007 seconds
+PC to MPU:  	portset 1 1 0 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:22
+Execution time: 0.007 seconds
+PC to MPU:  	portset 1 4 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:22
+Execution time: 0.005 seconds
+PC to MPU:  	power 5000
+MPU to PC:   	power is on, pw: 5000
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:22
+Execution time: 1.000 seconds
+PC to MPU:  	wait 1000
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:23
+Execution time: 0.013 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.005,2.578,0.001,0.000,0.000,1.732,2.780,24.523,0.002,2.775,0.000,1.406,4.968,0.004,0.000,5.019,0.002,2.641,0.000,2.364,2.366,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.732; spec = 1.8; tolerance = 0.2)
+				V28: OK	 (value = 2.78; spec = 2.8; tolerance = 0.2)
+				C28: OK	 (value = 1.406; spec = 1.2; tolerance = 0.6)
+
+        
+2024-07-05 20:45:23
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.005,2.580,0.001,0.000,0.000,1.733,2.787,24.525,0.002,2.785,0.000,1.393,4.969,0.002,0.000,5.019,0.002,2.647,0.000,2.365,2.366,0.000
+RESULT:   		OK
+				I2C_1: OK	 (value = 2.365; spec = 2.4; tolerance = 0.2)
+				I2C_1: OK	 (value = 2.366; spec = 2.4; tolerance = 0.2)
+
+        
+2024-07-05 20:45:23
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 5 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:23
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.003,2.572,0.002,0.000,0.000,1.734,2.786,24.532,0.002,2.781,0.000,1.660,4.968,0.008,0.000,5.018,0.004,2.645,0.000,0.005,2.328,0.000
+RESULT:   		OK
+				I2C_0: OK	 (value = 0.005; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-05 20:45:23
+Execution time: 0.008 seconds
+PC to MPU:  	portset 0 4 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:23
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.004,2.571,0.002,0.000,0.000,1.733,2.788,24.526,0.002,2.773,0.000,2.202,4.961,0.004,0.000,5.014,0.003,2.650,0.000,0.004,0.004,0.000
+RESULT:   		OK
+				I2C_0: OK	 (value = 0.004; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-05 20:45:23
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 5 0 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:23
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 4 0 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:23
+Execution time: 0.007 seconds
+PC to MPU:  	portset 1 1 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:23
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.004,2.576,0.001,0.000,0.000,1.732,2.760,24.528,0.002,2.757,0.000,1.997,4.957,0.006,0.000,5.013,0.002,2.666,1.670,2.369,2.369,0.000
+RESULT:   		OK
+				T_INT_1: OK	 (value = 1.67; spec = 1.6; tolerance = 0.2)
+
+        
+2024-07-05 20:45:23
+Execution time: 0.007 seconds
+PC to MPU:  	portset 1 1 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:23
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.004,2.577,0.002,0.000,0.000,1.733,2.799,24.529,0.002,2.796,0.000,1.778,4.962,0.002,0.000,5.017,0.002,2.656,0.000,2.368,2.369,0.000
+RESULT:   		OK
+				T_INT_0: OK	 (value = 0.0; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-05 20:45:23
+Execution time: 0.007 seconds
+PC to MPU:  	portset 1 1 0 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:23
+Execution time: 0.008 seconds
+PC to MPU:  	portset 2 2 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:23
+Execution time: 0.008 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.005,2.577,0.001,2.712,0.004,1.734,2.760,24.523,0.002,2.800,0.000,1.527,4.968,0.004,0.000,5.019,0.003,2.656,0.000,2.366,2.366,0.000
+RESULT:   		OK
+				DISP_D_1: OK	 (value = 2.712; spec = 2.7; tolerance = 0.2)
+
+        
+2024-07-05 20:45:23
+Execution time: 0.090 seconds
+PC to MPU:  	portset 2 2 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:23
+Execution time: 0.722 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.004,2.578,0.001,0.000,0.000,1.733,2.758,24.527,0.002,2.770,0.000,1.450,4.969,0.004,0.000,5.023,0.002,2.671,0.000,2.362,2.364,0.000
+RESULT:   		OK
+				DISP_D_0: OK	 (value = 0.0; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-05 20:45:24
+Execution time: 0.007 seconds
+PC to MPU:  	portset 3 3 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:24
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.004,2.579,0.002,0.000,0.000,1.736,2.801,24.531,2.798,2.801,0.000,1.393,4.970,0.002,0.000,5.024,0.002,2.650,0.000,2.367,2.368,0.000
+RESULT:   		OK
+				DISP_D_1: OK	 (value = 2.798; spec = 2.7; tolerance = 0.2)
+
+        
+2024-07-05 20:45:24
+Execution time: 0.007 seconds
+PC to MPU:  	portset 3 3 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:24
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.006,2.580,0.002,0.000,0.000,1.733,2.775,24.532,0.002,2.773,0.000,1.449,4.970,0.006,0.000,5.024,0.003,2.640,0.000,2.365,2.365,0.000
+RESULT:   		OK
+				DISP_D_0: OK	 (value = 0.002; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-05 20:45:24
+Execution time: 0.007 seconds
+PC to MPU:  	portset 3 2 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:24
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.003,2.574,0.001,0.000,0.000,1.734,2.777,24.530,0.002,0.000,0.000,1.503,4.970,0.002,0.000,5.021,0.003,2.631,0.000,2.363,2.365,0.000
+RESULT:   		OK
+				DISP_D_0: OK	 (value = 0.0; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-05 20:45:24
+Execution time: 0.007 seconds
+PC to MPU:  	portset 3 2 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:24
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.003,2.574,0.001,0.000,0.000,1.733,2.764,24.531,0.002,2.759,0.000,1.383,4.970,0.002,0.000,5.021,0.003,2.628,0.000,2.365,2.371,0.000
+RESULT:   		OK
+				DISP_D_1: OK	 (value = 2.759; spec = 2.7; tolerance = 0.2)
+
+        
+2024-07-05 20:45:24
+Execution time: 0.009 seconds
+PC to MPU:  	portset 2 3 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:24
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.004,2.575,0.001,0.000,0.000,1.736,2.792,24.528,0.002,2.789,2.788,1.393,4.970,0.005,0.000,5.024,0.002,2.641,0.000,2.366,2.367,0.000
+RESULT:   		OK
+				DISP_D_1: OK	 (value = 2.788; spec = 2.7; tolerance = 0.2)
+
+        
+2024-07-05 20:45:24
+Execution time: 0.007 seconds
+PC to MPU:  	portset 2 3 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:24
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.006,2.577,0.002,0.000,0.000,1.732,2.774,24.529,0.002,2.769,0.000,1.388,4.971,0.004,0.000,5.023,0.002,2.636,0.000,2.364,2.365,0.000
+RESULT:   		OK
+				DISP_D_0: OK	 (value = 0.0; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-05 20:45:24
+Execution time: 0.009 seconds
+PC to MPU:  	portset 0 6 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:24
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.006,2.578,0.001,0.000,0.000,1.734,2.756,24.528,0.002,2.804,0.000,1.416,4.971,0.001,0.000,5.027,0.001,2.663,0.001,2.369,2.369,0.000
+RESULT:   		OK
+				DISP_D_1: OK	 (value = 2.663; spec = 2.7; tolerance = 0.2)
+
+        
+2024-07-05 20:45:24
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 6 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:24
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.005,2.578,0.001,0.000,0.000,1.733,2.758,24.529,0.002,2.780,0.000,1.313,4.972,0.004,0.000,5.020,0.002,0.000,0.000,2.367,2.371,0.000
+RESULT:   		OK
+				DISP_D_0: OK	 (value = 0.0; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-05 20:45:24
+Execution time: 0.007 seconds
+PC to MPU:  	portset 1 4 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:24
+Execution time: 0.009 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.005,2.574,0.002,0.000,0.000,1.731,2.767,24.526,0.002,2.761,0.000,1.406,4.971,0.005,0.000,5.026,0.003,0.000,0.000,2.367,2.368,1.681
+RESULT:   		OK
+				T_INT_1: OK	 (value = 1.681; spec = 1.6; tolerance = 0.2)
+
+        
+2024-07-05 20:45:24
+Execution time: 0.007 seconds
+PC to MPU:  	portset 1 4 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:24
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.002,2.572,0.001,0.000,0.000,1.732,2.776,24.529,0.002,2.768,0.000,1.469,4.969,0.004,0.000,5.021,0.003,0.000,0.000,2.363,2.363,0.000
+RESULT:   		OK
+				T_INT_0: OK	 (value = 0.0; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-05 20:45:24
+Execution time: 0.007 seconds
+PC to MPU:  	portset 1 4 0 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:24
+Execution time: 0.006 seconds
+PC to MPU:  	power 15000
+MPU to PC:   	power is on, pw: 15000
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:24
+Execution time: 3.000 seconds
+PC to MPU:  	wait 3000
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:27
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.004,2.561,0.002,0.000,0.000,1.737,2.762,24.522,0.002,2.783,0.000,1.154,15.010,0.006,0.000,15.037,0.002,0.000,0.000,2.361,2.366,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.737; spec = 1.8; tolerance = 0.2)
+				V28: OK	 (value = 2.762; spec = 2.8; tolerance = 0.2)
+				C15V: OK	 (value = 1.154; spec = 1.0; tolerance = 1.0)
+
+        
+2024-07-05 20:45:27
+Execution time: 0.006 seconds
+PC to MPU:  	getrgb
+MPU to PC:   	R:79, G:26, B:7, C:95, IR: 2
+RESULT:   		OK
+				r: OK	 (value = 0.832 must be more than 0.3)
+				g: OK	 (value = 0.274 must be less than 0.5)
+				b: OK	 (value = 0.074 must be less than 0.3)
+
+        
+2024-07-05 20:45:27
+Execution time: 0.006 seconds
+PC to MPU:  	power 17000
+MPU to PC:   	power is on, pw: 17000
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:27
+Execution time: 1.000 seconds
+PC to MPU:  	wait 1000
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:28
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.005,2.567,0.002,0.000,0.000,1.734,2.770,24.517,0.002,2.762,0.000,0.244,15.719,0.009,0.000,16.991,0.002,0.000,0.000,2.363,2.365,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.734; spec = 1.8; tolerance = 0.2)
+				V28: OK	 (value = 2.77; spec = 2.8; tolerance = 0.2)
+				C17V: OK	 (value = 0.244; spec = 1.0; tolerance = 1.0)
+				HVH: OK	 (value = 16.991; spec = 17.0; tolerance = 3.0)
+				HVL: OK	 (value = 15.719; spec = 16.0; tolerance = 3.0)
+
+        
+2024-07-05 20:45:28
+Execution time: 0.006 seconds
+PC to MPU:  	getrgb
+MPU to PC:   	R:3358, G:702, B:80, C:3336, IR: 13
+RESULT:   		OK
+				r: OK	 (value = 1.007 must be more than 0.3)
+				g: OK	 (value = 0.21 must be less than 0.5)
+				b: OK	 (value = 0.024 must be less than 0.3)
+
+        
+2024-07-05 20:45:28
+Execution time: 0.004 seconds
+PC to MPU:  	power 0
+MPU to PC:   	power is off
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:28
+Execution time: 0.005 seconds
+PC to MPU:  	field 4200
+MPU to PC:   	field is on, pw: 4200
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:28
+Execution time: 1.000 seconds
+PC to MPU:  	wait 1000
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:29
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.007,2.566,0.002,0.000,0.000,1.735,2.780,24.520,0.002,2.774,0.000,0.046,15.364,11.553,4.460,15.386,16.943,0.000,0.000,2.364,2.367,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.735; spec = 1.8; tolerance = 0.2)
+				V28: OK	 (value = 2.78; spec = 2.8; tolerance = 0.2)
+
+        
+2024-07-05 20:45:29
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.006,2.565,0.002,0.000,0.000,1.735,2.774,24.518,0.002,2.767,0.000,0.038,15.363,11.542,4.460,15.386,16.942,0.000,0.000,2.363,2.368,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.735; spec = 1.8; tolerance = 0.2)
+				V28: OK	 (value = 2.774; spec = 2.8; tolerance = 0.2)
+				CRF: OK	 (value = 16.942; spec = 17.0; tolerance = 2.0)
+				HVL: OK	 (value = 15.363; spec = 16.0; tolerance = 3.0)
+
+        
+2024-07-05 20:45:29
+Execution time: 0.006 seconds
+PC to MPU:  	getrgb
+MPU to PC:   	R:960, G:208, B:26, C:965, IR: 4
+RESULT:   		OK
+				r: OK	 (value = 0.995 must be more than 0.3)
+				g: OK	 (value = 0.216 must be less than 0.5)
+				b: OK	 (value = 0.027 must be less than 0.3)
+
+        
+2024-07-05 20:45:29
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 3 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:29
+Execution time: 1.080 seconds
+PC to MPU:  	wait 1000
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:30
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.005,2.564,0.002,0.000,0.000,1.739,2.761,24.519,0.002,2.784,0.000,0.032,13.540,10.575,4.459,13.563,16.368,0.000,0.000,2.364,2.365,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.739; spec = 1.8; tolerance = 0.2)
+				V28: OK	 (value = 2.761; spec = 2.8; tolerance = 0.2)
+
+        
+2024-07-05 20:45:30
+Execution time: 0.006 seconds
+PC to MPU:  	getrgb
+MPU to PC:   	R:96, G:1118, B:62, C:1358, IR: 6
+RESULT:   		OK
+				r: OK	 (value = 0.071 must be less than 0.3)
+				g: OK	 (value = 0.823 must be more than 0.7)
+				b: OK	 (value = 0.046 must be less than 0.3)
+
+        
+2024-07-05 20:45:30
+Execution time: 0.008 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.006,2.565,0.002,0.000,0.000,1.738,2.780,24.519,0.002,2.773,0.000,0.027,13.539,10.584,4.460,13.564,16.403,0.000,0.000,2.364,2.363,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.738; spec = 1.8; tolerance = 0.2)
+				V28: OK	 (value = 2.78; spec = 2.8; tolerance = 0.2)
+				CRFL: OK	 (value = 16.403; spec = 14.0; tolerance = 5.0)
+				HVLED: OK	 (value = 13.539; spec = 12.0; tolerance = 2.5)
+
+        
+2024-07-05 20:45:30
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 3 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:30
+Execution time: 0.106 seconds
+PC to MPU:  	nfccheck
+MPU to PC:   	Nfc Packs: 44409
+Nfc Rate: 3.6
+RESULT:   		OK
+				NFC_PACKS: OK	 (value = 44409.0; spec = 50000.0; tolerance = 30000.0)
+				NFC_RATE: OK	 (value = 3.6; spec = 20.0; tolerance = 18.0)
+
+        
+2024-07-05 20:45:30
+Execution time: 0.004 seconds
+PC to MPU:  	field 0
+MPU to PC:   	field is off
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:30
+Execution time: 0.006 seconds
+PC to MPU:  	power 17000
+MPU to PC:   	power is on, pw: 17000
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:30
+Execution time: 1.157 seconds
+PC to MPU:  	wait 1000
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+2024-07-05 20:45:31
+Execution time: 0.520 seconds
+PC to MPU:  	dis
+MPU to PC:   	Cap size raw is 1078
+RESULT:   		OK
+				CAPACITY: OK	 (value = 1078.0; spec = 1000.0; tolerance = 100.0)
+
+        
+2024-07-05 20:45:32
+Execution time: 0.300 seconds
+PC to MPU:  	wait 300
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+------------------------------------------------------------------
+
+
+0 ERROR(S) 
+
+	
+
+
+================================================================================================================
+
+
+        
+DATE: 	10/07/2024
+TIME: 	14:14:18
+        
+2024-07-10 14:14:05
+Execution time: 0.057 seconds
+PC to MPU:  	power 0
+MPU to PC:   	power is off
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:05
+Execution time: 0.008 seconds
+PC to MPU:  	dis
+MPU to PC:   	Cap size raw is 63
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:05
+Execution time: 0.012 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.006,0.002,0.001,0.000,0.000,1.132,0.000,24.556,0.002,0.000,0.000,0.011,0.518,0.007,0.129,0.205,0.002,0.000,0.000,0.000,0.000,0.000
+RESULT:   		OK
+				MAIN: OK	 (value = 24.556; spec = 23.0; tolerance = 3.0)
+
+        
+2024-07-10 14:14:05
+Execution time: 0.007 seconds
+PC to MPU:  	power 3000
+MPU to PC:   	power is on, pw: 3000
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:05
+Execution time: 1.000 seconds
+PC to MPU:  	wait 1000
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:06
+Execution time: 0.008 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.006,0.823,0.002,0.000,0.000,1.735,0.932,24.545,0.002,0.932,0.000,1.553,2.958,0.005,0.069,3.024,0.003,0.910,0.000,1.224,1.229,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.735; spec = 1.8; tolerance = 0.2)
+
+        
+2024-07-10 14:14:06
+Execution time: 0.182 seconds
+PC to MPU:  	con
+MPU to PC:   	IDCODE 0x6BA02477
+Target EFM32PG200F512IM40
+UniqueID B43522FFFE4F31AB
+PageSize 8192
+FlashSize 524288
+RamSize 65536
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:06
+Execution time: 0.009 seconds
+PC to MPU:  	allinput
+MPU to PC:   	All input OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:06
+Execution time: 0.040 seconds
+PC to MPU:  	portset 2 0 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:07
+Execution time: 0.032 seconds
+PC to MPU:  	portset 2 4 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:07
+Execution time: 0.023 seconds
+PC to MPU:  	portset 3 2 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:07
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 3 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:07
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 9 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:07
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 6 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:07
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 7 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:07
+Execution time: 0.007 seconds
+PC to MPU:  	portset 3 3 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:07
+Execution time: 0.007 seconds
+PC to MPU:  	portset 1 1 0 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:07
+Execution time: 0.052 seconds
+PC to MPU:  	portset 1 4 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:07
+Execution time: 0.009 seconds
+PC to MPU:  	power 5000
+MPU to PC:   	power is on, pw: 5000
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:07
+Execution time: 1.000 seconds
+PC to MPU:  	wait 1000
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:08
+Execution time: 0.008 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.007,2.584,0.001,0.000,0.000,1.737,2.774,24.550,0.002,2.772,0.000,1.480,4.948,0.005,0.016,5.000,0.003,2.631,0.000,2.362,2.362,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.737; spec = 1.8; tolerance = 0.2)
+				V28: OK	 (value = 2.774; spec = 2.8; tolerance = 0.2)
+				C28: OK	 (value = 1.48; spec = 1.2; tolerance = 0.6)
+
+        
+2024-07-10 14:14:08
+Execution time: 0.008 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.005,2.577,0.002,0.000,0.000,1.738,2.761,24.546,0.002,2.768,0.000,1.431,4.951,0.006,0.015,5.005,0.002,2.658,0.000,2.366,2.368,0.000
+RESULT:   		OK
+				I2C_1: OK	 (value = 2.366; spec = 2.4; tolerance = 0.2)
+				I2C_1: OK	 (value = 2.368; spec = 2.4; tolerance = 0.2)
+
+        
+2024-07-10 14:14:08
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 5 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:08
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.008,2.585,0.001,0.000,0.000,1.735,2.779,24.546,0.002,2.772,0.000,1.538,4.948,0.011,0.015,5.000,0.002,2.648,0.000,0.002,2.331,0.000
+RESULT:   		OK
+				I2C_0: OK	 (value = 0.002; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-10 14:14:08
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 4 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:08
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.007,2.585,0.002,0.000,0.000,1.737,2.799,24.548,0.002,2.787,0.000,2.164,4.941,0.006,0.013,4.991,0.002,2.640,0.000,0.001,0.001,0.000
+RESULT:   		OK
+				I2C_0: OK	 (value = 0.001; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-10 14:14:08
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 5 0 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:08
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 4 0 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:08
+Execution time: 0.007 seconds
+PC to MPU:  	portset 1 1 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:08
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.007,2.587,0.001,0.000,0.000,1.736,2.798,24.552,0.002,2.796,0.000,1.928,4.939,0.006,0.012,4.992,0.002,2.648,1.666,2.367,2.366,0.000
+RESULT:   		OK
+				T_INT_1: OK	 (value = 1.666; spec = 1.6; tolerance = 0.2)
+
+        
+2024-07-10 14:14:08
+Execution time: 0.007 seconds
+PC to MPU:  	portset 1 1 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:08
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.004,2.584,0.001,0.000,0.000,1.734,2.786,24.549,0.002,2.794,0.000,1.743,4.944,0.009,0.013,4.998,0.002,2.647,0.000,2.365,2.364,0.000
+RESULT:   		OK
+				T_INT_0: OK	 (value = 0.0; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-10 14:14:08
+Execution time: 0.007 seconds
+PC to MPU:  	portset 1 1 0 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:08
+Execution time: 0.008 seconds
+PC to MPU:  	portset 2 2 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:08
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.006,2.585,0.002,2.710,0.003,1.737,2.795,24.548,0.002,2.792,0.000,1.621,4.949,0.002,0.013,5.001,0.002,2.663,0.000,2.364,2.363,0.000
+RESULT:   		OK
+				DISP_D_1: OK	 (value = 2.71; spec = 2.7; tolerance = 0.2)
+
+        
+2024-07-10 14:14:08
+Execution time: 0.310 seconds
+PC to MPU:  	portset 2 2 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:08
+Execution time: 0.406 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.007,2.587,0.002,0.000,0.000,1.738,2.800,24.551,0.002,2.803,0.000,1.475,4.949,0.007,0.004,5.003,0.002,2.664,0.000,2.368,2.368,0.000
+RESULT:   		OK
+				DISP_D_0: OK	 (value = 0.0; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-10 14:14:09
+Execution time: 0.007 seconds
+PC to MPU:  	portset 3 3 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:09
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.007,2.583,0.002,0.000,0.000,1.735,2.777,24.551,2.769,2.773,0.000,1.490,4.949,0.004,0.001,5.003,0.002,2.627,0.000,2.362,2.363,0.000
+RESULT:   		OK
+				DISP_D_1: OK	 (value = 2.769; spec = 2.7; tolerance = 0.2)
+
+        
+2024-07-10 14:14:09
+Execution time: 0.007 seconds
+PC to MPU:  	portset 3 3 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:09
+Execution time: 0.010 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.007,2.584,0.002,0.000,0.000,1.739,2.801,24.546,0.002,2.766,0.000,1.448,4.946,0.009,0.001,5.001,0.002,2.663,0.000,2.366,2.366,0.000
+RESULT:   		OK
+				DISP_D_0: OK	 (value = 0.002; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-10 14:14:09
+Execution time: 0.007 seconds
+PC to MPU:  	portset 3 2 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:09
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.006,2.582,0.002,0.000,0.000,1.736,2.775,24.550,0.002,0.000,0.000,1.492,4.950,0.006,0.001,5.004,0.002,2.628,0.000,2.360,2.361,0.000
+RESULT:   		OK
+				DISP_D_0: OK	 (value = 0.0; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-10 14:14:09
+Execution time: 0.007 seconds
+PC to MPU:  	portset 3 2 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:09
+Execution time: 0.010 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.006,2.587,0.003,0.000,0.000,1.738,2.772,24.548,0.002,2.783,0.000,1.460,4.951,0.004,0.001,5.002,0.002,2.629,0.000,2.363,2.363,0.000
+RESULT:   		OK
+				DISP_D_1: OK	 (value = 2.783; spec = 2.7; tolerance = 0.2)
+
+        
+2024-07-10 14:14:09
+Execution time: 0.007 seconds
+PC to MPU:  	portset 2 3 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:09
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.007,2.583,0.002,0.000,0.000,1.736,2.790,24.552,0.002,2.788,2.786,1.513,4.951,0.006,0.001,5.002,0.003,2.647,0.000,2.364,2.364,0.000
+RESULT:   		OK
+				DISP_D_1: OK	 (value = 2.786; spec = 2.7; tolerance = 0.2)
+
+        
+2024-07-10 14:14:09
+Execution time: 0.007 seconds
+PC to MPU:  	portset 2 3 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:09
+Execution time: 0.010 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.007,2.581,0.002,0.000,0.000,1.737,2.782,24.547,0.002,2.781,0.000,1.537,4.951,0.005,0.001,5.002,0.002,2.636,0.000,2.363,2.363,0.000
+RESULT:   		OK
+				DISP_D_0: OK	 (value = 0.0; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-10 14:14:09
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 6 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:09
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.006,2.583,0.002,0.000,0.000,1.739,2.793,24.551,0.002,2.789,0.000,1.323,4.949,0.004,0.001,5.001,0.002,2.650,0.000,2.366,2.366,0.000
+RESULT:   		OK
+				DISP_D_1: OK	 (value = 2.65; spec = 2.7; tolerance = 0.2)
+
+        
+2024-07-10 14:14:09
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 6 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:09
+Execution time: 0.010 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.006,2.586,0.002,0.000,0.000,1.736,2.766,24.547,0.002,2.795,0.000,1.384,4.951,0.005,0.001,5.005,0.002,0.000,0.000,2.367,2.366,0.000
+RESULT:   		OK
+				DISP_D_0: OK	 (value = 0.0; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-10 14:14:09
+Execution time: 0.007 seconds
+PC to MPU:  	portset 1 4 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:09
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.006,2.581,0.002,0.000,0.000,1.739,2.789,24.550,0.002,2.781,0.000,1.438,4.951,0.002,0.001,5.003,0.002,0.000,0.000,2.363,2.363,1.675
+RESULT:   		OK
+				T_INT_1: OK	 (value = 1.675; spec = 1.6; tolerance = 0.2)
+
+        
+2024-07-10 14:14:09
+Execution time: 0.007 seconds
+PC to MPU:  	portset 1 4 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:09
+Execution time: 0.010 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.006,2.584,0.001,0.000,0.000,1.736,2.801,24.551,0.002,2.793,0.000,1.632,4.948,0.004,0.001,5.003,0.004,0.000,0.000,2.361,2.364,0.000
+RESULT:   		OK
+				T_INT_0: OK	 (value = 0.0; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-10 14:14:09
+Execution time: 0.007 seconds
+PC to MPU:  	portset 1 4 0 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:09
+Execution time: 0.006 seconds
+PC to MPU:  	power 15000
+MPU to PC:   	power is on, pw: 15000
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:09
+Execution time: 3.000 seconds
+PC to MPU:  	wait 3000
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:12
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.008,2.569,0.001,0.000,0.000,1.736,2.772,24.541,0.002,2.765,0.000,0.983,14.959,0.002,0.000,14.991,0.002,0.000,0.000,2.363,2.363,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.736; spec = 1.8; tolerance = 0.2)
+				V28: OK	 (value = 2.772; spec = 2.8; tolerance = 0.2)
+				C15V: OK	 (value = 0.983; spec = 1.0; tolerance = 1.0)
+
+        
+2024-07-10 14:14:12
+Execution time: 0.006 seconds
+PC to MPU:  	getrgb
+MPU to PC:   	R:15, G:10, B:5, C:30, IR: 3
+RESULT:   		OK
+				r: OK	 (value = 0.5 must be more than 0.3)
+				g: OK	 (value = 0.333 must be less than 0.5)
+				b: OK	 (value = 0.167 must be less than 0.3)
+
+        
+2024-07-10 14:14:12
+Execution time: 0.006 seconds
+PC to MPU:  	power 17000
+MPU to PC:   	power is on, pw: 17000
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:12
+Execution time: 1.000 seconds
+PC to MPU:  	wait 1000
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:13
+Execution time: 0.012 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.007,2.572,0.002,0.000,0.000,1.738,2.762,24.535,0.002,2.785,0.000,0.125,15.750,0.006,0.000,16.992,0.001,0.000,0.000,2.365,2.366,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.738; spec = 1.8; tolerance = 0.2)
+				V28: OK	 (value = 2.762; spec = 2.8; tolerance = 0.2)
+				C17V: OK	 (value = 0.125; spec = 1.0; tolerance = 1.0)
+				HVH: OK	 (value = 16.992; spec = 17.0; tolerance = 3.0)
+				HVL: OK	 (value = 15.75; spec = 16.0; tolerance = 3.0)
+
+        
+2024-07-10 14:14:13
+Execution time: 0.069 seconds
+PC to MPU:  	getrgb
+MPU to PC:   	R:1926, G:408, B:50, C:1954, IR: 9
+RESULT:   		OK
+				r: OK	 (value = 0.986 must be more than 0.3)
+				g: OK	 (value = 0.209 must be less than 0.5)
+				b: OK	 (value = 0.026 must be less than 0.3)
+
+        
+2024-07-10 14:14:13
+Execution time: 0.004 seconds
+PC to MPU:  	power 0
+MPU to PC:   	power is off
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:13
+Execution time: 0.006 seconds
+PC to MPU:  	field 4200
+MPU to PC:   	field is on, pw: 4200
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:13
+Execution time: 1.000 seconds
+PC to MPU:  	wait 1000
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:14
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.010,2.571,0.003,0.000,0.000,1.737,2.760,24.541,0.002,2.781,0.000,0.042,15.229,11.582,4.471,15.256,16.337,0.000,0.000,2.364,2.363,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.737; spec = 1.8; tolerance = 0.2)
+				V28: OK	 (value = 2.76; spec = 2.8; tolerance = 0.2)
+
+        
+2024-07-10 14:14:14
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.009,2.572,0.002,0.000,0.000,1.739,2.784,24.539,0.002,2.776,0.000,0.045,15.228,11.582,4.469,15.250,16.282,0.000,0.000,2.362,2.366,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.739; spec = 1.8; tolerance = 0.2)
+				V28: OK	 (value = 2.784; spec = 2.8; tolerance = 0.2)
+				CRF: OK	 (value = 16.282; spec = 17.0; tolerance = 2.0)
+				HVL: OK	 (value = 15.228; spec = 16.0; tolerance = 3.0)
+
+        
+2024-07-10 14:14:14
+Execution time: 0.006 seconds
+PC to MPU:  	getrgb
+MPU to PC:   	R:415, G:94, B:14, C:433, IR: 4
+RESULT:   		OK
+				r: OK	 (value = 0.958 must be more than 0.3)
+				g: OK	 (value = 0.217 must be less than 0.5)
+				b: OK	 (value = 0.032 must be less than 0.3)
+
+        
+2024-07-10 14:14:14
+Execution time: 0.011 seconds
+PC to MPU:  	portset 0 3 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:14
+Execution time: 1.000 seconds
+PC to MPU:  	wait 1000
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:15
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.007,2.573,0.003,0.000,0.000,1.741,2.771,24.543,0.002,2.763,0.000,0.030,13.242,10.537,4.472,13.271,15.696,0.000,0.000,2.367,2.366,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.741; spec = 1.8; tolerance = 0.2)
+				V28: OK	 (value = 2.771; spec = 2.8; tolerance = 0.2)
+
+        
+2024-07-10 14:14:15
+Execution time: 0.006 seconds
+PC to MPU:  	getrgb
+MPU to PC:   	R:66, G:787, B:45, C:969, IR: 6
+RESULT:   		OK
+				r: OK	 (value = 0.068 must be less than 0.3)
+				g: OK	 (value = 0.812 must be more than 0.7)
+				b: OK	 (value = 0.046 must be less than 0.3)
+
+        
+2024-07-10 14:14:15
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.009,2.573,0.003,0.000,0.000,1.739,2.761,24.541,0.002,2.784,0.000,0.028,13.238,10.538,4.471,13.266,15.657,0.000,0.000,2.365,2.364,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.739; spec = 1.8; tolerance = 0.2)
+				V28: OK	 (value = 2.761; spec = 2.8; tolerance = 0.2)
+				CRFL: OK	 (value = 15.657; spec = 14.0; tolerance = 5.0)
+				HVLED: OK	 (value = 13.238; spec = 10.0; tolerance = 5.0)
+
+        
+2024-07-10 14:14:15
+Execution time: 0.011 seconds
+PC to MPU:  	portset 0 3 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:15
+Execution time: 0.119 seconds
+PC to MPU:  	nfccheck
+MPU to PC:   	Nfc Packs: 44035
+Nfc Rate: 3.8
+RESULT:   		OK
+				NFC_PACKS: OK	 (value = 44035.0; spec = 50000.0; tolerance = 30000.0)
+				NFC_RATE: OK	 (value = 3.8; spec = 20.0; tolerance = 18.0)
+
+        
+2024-07-10 14:14:15
+Execution time: 0.054 seconds
+PC to MPU:  	field 0
+MPU to PC:   	field is off
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:15
+Execution time: 0.007 seconds
+PC to MPU:  	power 17000
+MPU to PC:   	power is on, pw: 17000
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:15
+Execution time: 1.000 seconds
+PC to MPU:  	wait 1000
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+2024-07-10 14:14:16
+Execution time: 0.005 seconds
+PC to MPU:  	dis
+MPU to PC:   	Cap size raw is 1050
+RESULT:   		OK
+				CAPACITY: OK	 (value = 1050.0; spec = 1000.0; tolerance = 100.0)
+
+        
+2024-07-10 14:14:16
+Execution time: 0.300 seconds
+PC to MPU:  	wait 300
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+------------------------------------------------------------------
+
+
+0 ERROR(S) 
+
+	
+
+
+================================================================================================================
+
+
+        
+DATE: 	10/07/2024
+TIME: 	17:10:28
+        
+2024-07-10 17:10:14
+Execution time: 0.006 seconds
+PC to MPU:  	power 0
+MPU to PC:   	power is off
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:14
+Execution time: 0.060 seconds
+PC to MPU:  	dis
+MPU to PC:   	Cap size raw is 76
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:14
+Execution time: 0.011 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.009,0.001,0.002,0.000,0.000,1.315,0.000,24.547,0.002,0.000,0.000,0.009,0.676,0.004,0.000,0.342,0.003,0.000,0.000,0.000,0.000,0.000
+RESULT:   		OK
+				MAIN: OK	 (value = 24.547; spec = 23.0; tolerance = 3.0)
+
+        
+2024-07-10 17:10:14
+Execution time: 0.007 seconds
+PC to MPU:  	power 3000
+MPU to PC:   	power is on, pw: 3000
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:14
+Execution time: 1.000 seconds
+PC to MPU:  	wait 1000
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:15
+Execution time: 0.011 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.006,0.829,0.001,0.000,0.000,1.737,0.937,24.545,0.002,0.939,0.000,1.381,2.913,0.006,0.000,2.975,0.002,0.916,0.000,1.226,1.232,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.737; spec = 1.8; tolerance = 0.2)
+
+        
+2024-07-10 17:10:15
+Execution time: 0.182 seconds
+PC to MPU:  	con
+MPU to PC:   	IDCODE 0x6BA02477
+Target EFM32PG200F512IM40
+UniqueID B43522FFFE4F31AB
+PageSize 8192
+FlashSize 524288
+RamSize 65536
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:15
+Execution time: 0.007 seconds
+PC to MPU:  	allinput
+MPU to PC:   	All input OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:15
+Execution time: 0.007 seconds
+PC to MPU:  	portset 2 0 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:16
+Execution time: 0.009 seconds
+PC to MPU:  	portset 2 4 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:16
+Execution time: 0.007 seconds
+PC to MPU:  	portset 3 2 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:16
+Execution time: 0.017 seconds
+PC to MPU:  	portset 0 3 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:16
+Execution time: 0.116 seconds
+PC to MPU:  	portset 0 9 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:16
+Execution time: 0.039 seconds
+PC to MPU:  	portset 0 6 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:16
+Execution time: 0.033 seconds
+PC to MPU:  	portset 0 7 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:16
+Execution time: 0.007 seconds
+PC to MPU:  	portset 3 3 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:16
+Execution time: 0.007 seconds
+PC to MPU:  	portset 1 1 0 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:16
+Execution time: 0.007 seconds
+PC to MPU:  	portset 1 4 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:16
+Execution time: 0.012 seconds
+PC to MPU:  	power 5000
+MPU to PC:   	power is on, pw: 5000
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:16
+Execution time: 1.000 seconds
+PC to MPU:  	wait 1000
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:17
+Execution time: 0.013 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.006,2.579,0.003,0.000,0.000,1.736,2.798,24.541,0.002,2.797,0.000,1.290,4.950,0.005,0.000,5.007,0.003,2.658,0.000,2.365,2.366,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.736; spec = 1.8; tolerance = 0.2)
+				V28: OK	 (value = 2.798; spec = 2.8; tolerance = 0.2)
+				C28: OK	 (value = 1.29; spec = 1.2; tolerance = 0.6)
+
+        
+2024-07-10 17:10:17
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.007,2.577,0.002,0.000,0.000,1.735,2.795,24.536,0.002,2.804,0.000,1.202,4.949,0.004,0.000,5.008,0.002,2.652,0.000,2.365,2.366,0.000
+RESULT:   		OK
+				I2C_1: OK	 (value = 2.365; spec = 2.4; tolerance = 0.2)
+				I2C_1: OK	 (value = 2.366; spec = 2.4; tolerance = 0.2)
+
+        
+2024-07-10 17:10:17
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 5 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:17
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.008,2.578,0.001,0.000,0.000,1.733,2.764,24.537,0.002,2.763,0.000,1.288,4.951,0.002,0.000,5.004,0.003,2.662,0.000,0.002,2.330,0.000
+RESULT:   		OK
+				I2C_0: OK	 (value = 0.002; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-10 17:10:17
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 4 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:17
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.007,2.581,0.001,0.000,0.000,1.732,2.791,24.540,0.002,2.779,0.000,2.027,4.944,0.002,0.000,4.999,0.002,2.647,0.000,0.002,0.001,0.000
+RESULT:   		OK
+				I2C_0: OK	 (value = 0.001; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-10 17:10:17
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 5 0 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:17
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 4 0 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:17
+Execution time: 0.007 seconds
+PC to MPU:  	portset 1 1 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:17
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.007,2.587,0.001,0.000,0.000,1.737,2.790,24.537,0.002,2.785,0.000,1.578,4.939,0.012,0.000,4.995,0.002,2.643,1.667,2.362,2.363,0.000
+RESULT:   		OK
+				T_INT_1: OK	 (value = 1.667; spec = 1.6; tolerance = 0.2)
+
+        
+2024-07-10 17:10:17
+Execution time: 0.007 seconds
+PC to MPU:  	portset 1 1 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:17
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.006,2.583,0.002,0.000,0.000,1.734,2.775,24.539,0.002,2.771,0.000,1.518,4.946,0.004,0.000,5.003,0.003,2.632,0.000,2.360,2.361,0.000
+RESULT:   		OK
+				T_INT_0: OK	 (value = 0.0; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-10 17:10:17
+Execution time: 0.008 seconds
+PC to MPU:  	portset 1 1 0 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:17
+Execution time: 0.008 seconds
+PC to MPU:  	portset 2 2 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:17
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.008,2.586,0.002,2.738,0.004,1.738,2.784,24.537,0.002,2.774,0.000,1.304,4.949,0.005,0.000,5.002,0.002,2.647,0.000,2.366,2.367,0.000
+RESULT:   		OK
+				DISP_D_1: OK	 (value = 2.738; spec = 2.7; tolerance = 0.2)
+
+        
+2024-07-10 17:10:17
+Execution time: 0.007 seconds
+PC to MPU:  	portset 2 2 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:17
+Execution time: 0.264 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.009,2.577,0.002,0.000,0.000,1.735,2.799,24.542,0.002,2.796,0.000,1.360,4.951,0.004,0.000,5.007,0.003,2.657,0.000,2.364,2.365,0.000
+RESULT:   		OK
+				DISP_D_0: OK	 (value = 0.0; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-10 17:10:17
+Execution time: 0.546 seconds
+PC to MPU:  	portset 3 3 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:18
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.007,2.583,0.002,0.000,0.000,1.738,2.802,24.543,2.798,2.802,0.000,1.178,4.952,0.005,0.000,5.005,0.002,2.652,0.000,2.363,2.366,0.000
+RESULT:   		OK
+				DISP_D_1: OK	 (value = 2.798; spec = 2.7; tolerance = 0.2)
+
+        
+2024-07-10 17:10:18
+Execution time: 0.007 seconds
+PC to MPU:  	portset 3 3 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:18
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.009,2.589,0.001,0.000,0.000,1.735,2.783,24.543,0.002,2.782,0.000,1.243,4.954,0.007,0.000,5.010,0.002,2.635,0.000,2.362,2.363,0.000
+RESULT:   		OK
+				DISP_D_0: OK	 (value = 0.002; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-10 17:10:18
+Execution time: 0.007 seconds
+PC to MPU:  	portset 3 2 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:18
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.009,2.580,0.001,0.000,0.000,1.738,2.768,24.544,0.002,0.000,0.000,1.341,4.954,0.002,0.000,5.006,0.002,2.634,0.000,2.359,2.360,0.000
+RESULT:   		OK
+				DISP_D_0: OK	 (value = 0.0; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-10 17:10:18
+Execution time: 0.007 seconds
+PC to MPU:  	portset 3 2 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:18
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.009,2.584,0.002,0.000,0.000,1.734,2.770,24.541,0.002,2.768,0.000,1.231,4.953,0.001,0.000,5.008,0.002,2.627,0.000,2.358,2.361,0.000
+RESULT:   		OK
+				DISP_D_1: OK	 (value = 2.768; spec = 2.7; tolerance = 0.2)
+
+        
+2024-07-10 17:10:18
+Execution time: 0.007 seconds
+PC to MPU:  	portset 2 3 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:18
+Execution time: 0.008 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.008,2.584,0.001,0.000,0.000,1.733,2.806,24.540,0.002,2.804,2.799,1.261,4.954,0.001,0.000,5.009,0.002,2.663,0.000,2.365,2.366,0.000
+RESULT:   		OK
+				DISP_D_1: OK	 (value = 2.799; spec = 2.7; tolerance = 0.2)
+
+        
+2024-07-10 17:10:18
+Execution time: 0.007 seconds
+PC to MPU:  	portset 2 3 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:18
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.008,2.581,0.001,0.000,0.000,1.734,2.785,24.541,0.002,2.794,0.000,1.280,4.952,0.005,0.000,5.006,0.002,2.646,0.000,2.362,2.363,0.000
+RESULT:   		OK
+				DISP_D_0: OK	 (value = 0.0; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-10 17:10:18
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 6 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:18
+Execution time: 0.008 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.009,2.584,0.002,0.000,0.000,1.735,2.781,24.541,0.002,2.776,0.000,1.346,4.954,0.006,0.000,5.006,0.003,2.631,0.000,2.362,2.363,0.000
+RESULT:   		OK
+				DISP_D_1: OK	 (value = 2.631; spec = 2.7; tolerance = 0.2)
+
+        
+2024-07-10 17:10:18
+Execution time: 0.007 seconds
+PC to MPU:  	portset 0 6 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:18
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.006,2.580,0.001,0.000,0.000,1.738,2.781,24.546,0.002,2.773,0.000,1.162,4.958,0.004,0.000,5.013,0.002,0.000,0.000,2.365,2.364,0.000
+RESULT:   		OK
+				DISP_D_0: OK	 (value = 0.0; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-10 17:10:18
+Execution time: 0.007 seconds
+PC to MPU:  	portset 1 4 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:18
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.007,2.585,0.001,0.000,0.000,1.734,2.765,24.543,0.002,2.786,0.000,1.205,4.955,0.006,0.000,5.012,0.002,0.000,0.000,2.360,2.361,1.677
+RESULT:   		OK
+				T_INT_1: OK	 (value = 1.677; spec = 1.6; tolerance = 0.2)
+
+        
+2024-07-10 17:10:18
+Execution time: 0.007 seconds
+PC to MPU:  	portset 1 4 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:18
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.007,2.580,0.002,0.000,0.000,1.737,2.779,24.544,0.002,2.772,0.000,1.411,4.955,0.005,0.000,5.006,0.002,0.000,0.000,2.359,2.364,0.000
+RESULT:   		OK
+				T_INT_0: OK	 (value = 0.0; spec = 0.0; tolerance = 0.2)
+
+        
+2024-07-10 17:10:18
+Execution time: 0.007 seconds
+PC to MPU:  	portset 1 4 0 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:18
+Execution time: 0.006 seconds
+PC to MPU:  	power 15000
+MPU to PC:   	power is on, pw: 15000
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:18
+Execution time: 3.000 seconds
+PC to MPU:  	wait 3000
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:21
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.007,2.570,0.003,0.000,0.000,1.737,2.757,24.530,0.002,2.782,0.000,0.970,14.990,0.008,0.000,15.024,0.002,0.000,0.000,2.362,2.363,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.737; spec = 1.8; tolerance = 0.2)
+				V28: OK	 (value = 2.757; spec = 2.8; tolerance = 0.2)
+				C15V: OK	 (value = 0.97; spec = 1.0; tolerance = 1.0)
+
+        
+2024-07-10 17:10:21
+Execution time: 0.006 seconds
+PC to MPU:  	getrgb
+MPU to PC:   	R:27, G:13, B:6, C:42, IR: 3
+RESULT:   		OK
+				r: OK	 (value = 0.643 must be more than 0.3)
+				g: OK	 (value = 0.31 must be less than 0.5)
+				b: OK	 (value = 0.143 must be less than 0.3)
+
+        
+2024-07-10 17:10:21
+Execution time: 0.006 seconds
+PC to MPU:  	power 17000
+MPU to PC:   	power is on, pw: 17000
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:21
+Execution time: 1.000 seconds
+PC to MPU:  	wait 1000
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:22
+Execution time: 0.008 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.008,2.567,0.001,0.000,0.000,1.735,2.771,24.524,0.002,2.766,0.000,0.121,15.966,0.012,0.000,16.984,0.002,0.000,0.000,2.360,2.361,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.735; spec = 1.8; tolerance = 0.2)
+				V28: OK	 (value = 2.771; spec = 2.8; tolerance = 0.2)
+				C17V: OK	 (value = 0.121; spec = 1.0; tolerance = 1.0)
+				HVH: OK	 (value = 16.984; spec = 17.0; tolerance = 3.0)
+				HVL: OK	 (value = 15.966; spec = 16.0; tolerance = 3.0)
+
+        
+2024-07-10 17:10:22
+Execution time: 0.006 seconds
+PC to MPU:  	getrgb
+MPU to PC:   	R:2466, G:521, B:63, C:2497, IR: 11
+RESULT:   		OK
+				r: OK	 (value = 0.988 must be more than 0.3)
+				g: OK	 (value = 0.209 must be less than 0.5)
+				b: OK	 (value = 0.025 must be less than 0.3)
+
+        
+2024-07-10 17:10:22
+Execution time: 0.004 seconds
+PC to MPU:  	power 0
+MPU to PC:   	power is off
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:22
+Execution time: 0.006 seconds
+PC to MPU:  	field 4200
+MPU to PC:   	field is on, pw: 4200
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:22
+Execution time: 1.000 seconds
+PC to MPU:  	wait 1000
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:23
+Execution time: 0.007 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.010,2.570,0.002,0.000,0.000,1.735,2.783,24.531,0.002,2.777,0.000,0.042,15.346,11.580,4.460,15.372,16.674,0.000,0.000,2.360,2.362,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.735; spec = 1.8; tolerance = 0.2)
+				V28: OK	 (value = 2.783; spec = 2.8; tolerance = 0.2)
+
+        
+2024-07-10 17:10:23
+Execution time: 0.008 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.008,2.570,0.002,0.000,0.000,1.737,2.779,24.526,0.002,2.772,0.000,0.043,15.350,11.580,4.462,15.376,16.671,0.000,0.000,2.361,2.362,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.737; spec = 1.8; tolerance = 0.2)
+				V28: OK	 (value = 2.779; spec = 2.8; tolerance = 0.2)
+				CRF: OK	 (value = 16.671; spec = 17.0; tolerance = 2.0)
+				HVL: OK	 (value = 15.35; spec = 16.0; tolerance = 3.0)
+
+        
+2024-07-10 17:10:23
+Execution time: 0.006 seconds
+PC to MPU:  	getrgb
+MPU to PC:   	R:656, G:144, B:20, C:676, IR: 4
+RESULT:   		OK
+				r: OK	 (value = 0.97 must be more than 0.3)
+				g: OK	 (value = 0.213 must be less than 0.5)
+				b: OK	 (value = 0.03 must be less than 0.3)
+
+        
+2024-07-10 17:10:23
+Execution time: 0.013 seconds
+PC to MPU:  	portset 0 3 1 1
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:23
+Execution time: 1.094 seconds
+PC to MPU:  	wait 1000
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:24
+Execution time: 0.008 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.010,2.576,0.001,0.000,0.000,1.739,2.778,24.532,0.002,2.769,0.000,0.027,13.412,10.544,4.464,13.441,16.070,0.000,0.000,2.361,2.366,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.739; spec = 1.8; tolerance = 0.2)
+				V28: OK	 (value = 2.778; spec = 2.8; tolerance = 0.2)
+
+        
+2024-07-10 17:10:24
+Execution time: 0.007 seconds
+PC to MPU:  	getrgb
+MPU to PC:   	R:69, G:796, B:46, C:983, IR: 5
+RESULT:   		OK
+				r: OK	 (value = 0.07 must be less than 0.3)
+				g: OK	 (value = 0.81 must be more than 0.7)
+				b: OK	 (value = 0.047 must be less than 0.3)
+
+        
+2024-07-10 17:10:24
+Execution time: 0.008 seconds
+PC to MPU:  	getv
+MPU to PC:   	-0.010,2.574,0.001,0.000,0.000,1.736,2.766,24.531,0.002,2.759,0.000,0.027,13.411,10.546,4.464,13.441,16.095,0.000,0.000,2.364,2.364,0.000
+RESULT:   		OK
+				V18: OK	 (value = 1.736; spec = 1.8; tolerance = 0.2)
+				V28: OK	 (value = 2.766; spec = 2.8; tolerance = 0.2)
+				CRFL: OK	 (value = 16.095; spec = 14.0; tolerance = 5.0)
+				HVLED: OK	 (value = 13.411; spec = 10.0; tolerance = 5.0)
+
+        
+2024-07-10 17:10:24
+Execution time: 0.012 seconds
+PC to MPU:  	portset 0 3 1 0
+MPU to PC:   	Port set OK
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:24
+Execution time: 0.106 seconds
+PC to MPU:  	nfccheck
+MPU to PC:   	Nfc Packs: 44416
+Nfc Rate: 3.7
+RESULT:   		OK
+				NFC_PACKS: OK	 (value = 44416.0; spec = 50000.0; tolerance = 30000.0)
+				NFC_RATE: OK	 (value = 3.7; spec = 20.0; tolerance = 18.0)
+
+        
+2024-07-10 17:10:24
+Execution time: 0.004 seconds
+PC to MPU:  	field 0
+MPU to PC:   	field is off
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:24
+Execution time: 0.006 seconds
+PC to MPU:  	power 17000
+MPU to PC:   	power is on, pw: 17000
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:24
+Execution time: 1.159 seconds
+PC to MPU:  	wait 1000
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+2024-07-10 17:10:25
+Execution time: 0.521 seconds
+PC to MPU:  	dis
+MPU to PC:   	Cap size raw is 1053
+RESULT:   		OK
+				CAPACITY: OK	 (value = 1053.0; spec = 1000.0; tolerance = 100.0)
+
+        
+2024-07-10 17:10:26
+Execution time: 0.300 seconds
+PC to MPU:  	wait 300
+MPU to PC:   	
+RESULT:   		OK
+				
+        
+------------------------------------------------------------------
+
+
+0 ERROR(S) 
+
+	
+
+
+================================================================================================================
+
+
+        

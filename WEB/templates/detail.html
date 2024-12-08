@@ -1,0 +1,64 @@
+{% include 'header.html' %}
+
+<table class="test-info">
+    <tr>
+        <td>Kampure ID:</td>
+        <td>{{kampure_id}}</td>
+    </tr>
+    <tr>
+        <td>Date:</td>
+        <td>{{datetime | ctime}}</td>
+    </tr>
+    <tr>
+        <td>Spec name:</td>
+        <td>{{report.spec_name}}</td>
+    </tr>
+    <tr>
+        <td>Errors: {{report.errors_cnt}}</td>
+        <td>
+        <ol>
+            {% for e in errors_text %}
+            <li>{{e}}</li>
+            {% endfor %}
+        </ol></td>
+    </tr>
+</table>
+
+<table class="test-step" style="width:100%">
+{% for step in detail_data %}
+
+    <tr class="datetime">
+        <td class="prefix">Started:</td>
+        <td>{{ step.timestamp | ctime }}</td>
+    </tr>
+    <tr class="datetime">
+        <td class="prefix">Exec time:</td>
+        <td>{{ "%.3f sec"|format(step.exec_time) }}</td>
+    </tr>
+    <tr class="request">
+        <td class="prefix">PC to MPU:</td>
+        <td class="request-value">{{ step.request }}</td>
+    </tr>
+    <tr class="response">
+        <td class="prefix">MPU to PC:</td>
+        <td class="response-value">{{ step.response }}</td>
+    </tr>
+    {% for d in step.details %}
+    <tr  class="details">
+        <td></td><td class="details-data">{{ d }}</td>
+    </tr>
+    {% endfor %}
+    <tr  class="result">
+        <td class="prefix">RESULT:</td>
+        <td class="result-value {{ step.status }}">{{ step.result }}</td>
+    </tr>
+    <tr  class="separator"><td colspan="2"></td></tr>
+
+{% endfor %}
+
+</table>
+
+
+<div class="textwrapper"><textarea class="report_text">{{report.detail_text}}</textarea></div>
+
+{% include 'footer.html' %}

@@ -1,0 +1,36 @@
+{% include 'header.html' %}
+
+{% for cat, msg in get_flashed_messages(True) %}
+<div class="flash {{cat}}">{{msg}}</div>
+{% endfor %}
+<form action="{{url_for('index')}}" method="GET" class="form-filter">
+    <p><label>Kampure ID: </label> <input type="text" name="id" value="{{ request.args['id'] }}"> </p>
+    <p><input type="checkbox" name="ok_only" value="y"  {{ "checked" if request.args['ok_only'] == 'y' }}> only successful</p>
+    <p><input type="submit" value="Filter"> | <a href="{{url_for('index')}}">Show all</a></p>
+</form>
+
+<table class="test-step"  style="width:100%">
+    <tr>
+        <th>Kampure ID</th>
+        <th>Date</th>
+        <th>Spec name</th>
+        <th>Errors</th>
+        <th>Report</th>
+    </tr>
+
+    {% for r in reports %}
+
+    <tr>
+        <td><a href="{{ url_for('index') }}?id={{ r.kambala_id }}">{{ r.kambala_id }}</a></td>
+        <td>{{ r.date_create | ctime }}</td>
+        <td>{{ r.spec_name }}</td>
+        <td>{{ r.errors_cnt }}</td>
+        <td><a href="{{ url_for('report_detailed', UniqueID=r.kambala_id, unixtime=r.date_create) }}"  target="_blank">[...]</a></td>
+    </tr>
+
+    {% endfor %}
+
+</table>
+
+
+{% include 'footer.html' %}

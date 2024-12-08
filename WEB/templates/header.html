@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/logofav.png') }}">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/poole.css') }}">
+
+    <title>{{ title }}</title>
+
+</head>
+<body>
+
+<div class="sidebar">
+    <div class="container sidebar-sticky">
+        <div class="sidebar-about">
+
+            <a href="{{ url_for('index') }}">
+                <div class="img-placeholder">
+                  <img src="{{ url_for('static', filename='img/logo.png') }}">
+                </div>
+            </a>
+
+            <p class="lead">Kampela Testing Fixture</p>
+
+        </div>
+
+        <ul class="sidebar-nav">
+            {% for m in menu %}
+                <li class="sidebar-nav-item"><a href="/{{m.kambala_id}}/{{m.date_create}}/">{{m.kambala_id}} - {{ m.date_create }}</a></li>
+            {% endfor %}
+        </ul>
+
+    </div>
+</div>
+
+
+<div class="content container">
+
+<div class="post">
+  <h1 id="starthere" class="post-title">{{ title }}</h1>
+
